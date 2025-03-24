@@ -8,3 +8,53 @@ body {
 body * {
     margin: 5px;
 }
+
+
+
+
+
+
+input.error {
+    border: 2px solid red;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+li.checked {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+body.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark input,
+body.dark button {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+body.dark input.error {
+    border: 2px solid red;
+}
+
+body.dark li.checked {
+    color: #888;
+}

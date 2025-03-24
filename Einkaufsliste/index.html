@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,24 @@
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
+
     <h1>Einkaufsliste</h1>
+    <button id="themeToggle">🌙 Dark Mode</button>
     <input type="text" id="artikel" placeholder="Artikelname...">
     <input type="number" id="anzahl" placeholder="Anzahl...">
     <input type="number" id="preis" placeholder="Preis pro Stück...">
+    <select id="kategorie">
+        <option value="">Kategorie wählen...</option>
+        <option value="obst">Obst</option>
+        <option value="gemuese">Gemüse</option>
+        <option value="drogerie">Drogerie</option>
+    </select>
     <button id="addButton">Hinzufügen</button>
     <ul id="liste"></ul>
     <h5 id="gesamt"></h5>
+    <button id="clearButton">Liste leeren</button>
 </body>
+
 </html>
